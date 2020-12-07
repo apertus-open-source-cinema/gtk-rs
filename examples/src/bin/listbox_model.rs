@@ -9,11 +9,10 @@
 //! property bindings.
 //!
 //! In addition it is possible to add new rows and delete old ones.
-
-use gio::prelude::*;
 use glib::{clone, glib_object_subclass, glib_wrapper};
 use gtk::prelude::*;
 use gtk::ResponseType;
+use gtk::{gio, glib};
 
 use std::env::args;
 

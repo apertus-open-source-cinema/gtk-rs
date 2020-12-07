@@ -4,8 +4,8 @@
 //! and showcases how you can override virtual funcitons such as `startup`
 //! and `activate` and how to interact with the GObjects and their private
 //! structs.
+use gtk::{gio, glib};
 
-use gio::prelude::*;
 use gio::subclass::prelude::*;
 use gio::ApplicationFlags;
 
