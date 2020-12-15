@@ -74,6 +74,7 @@
 //! conversions between high level Rust types (including the aforementioned
 //! wrappers) and their FFI counterparts.
 
+#![feature(doc_alias)]
 #![allow(clippy::doc_markdown)]
 #![allow(clippy::unreadable_literal)]
 #![cfg_attr(feature = "dox", feature(doc_cfg))]

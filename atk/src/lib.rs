@@ -7,6 +7,7 @@
 //! This library contains safe Rust bindings for [ATK](https://developer.gnome.org/atk/). It's
 //! a part of [Gtk-rs](https://gtk-rs.org/).
 
+#![feature(doc_alias)]
 #![cfg_attr(feature = "dox", feature(doc_cfg))]
 
 pub use ffi;

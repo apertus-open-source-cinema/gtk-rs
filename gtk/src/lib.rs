@@ -1,7 +1,7 @@
 // Copyright 2013-2018, The Gtk-rs Project Developers.
 // See the COPYRIGHT file at the top-level directory of this distribution.
 // Licensed under the MIT license, see the LICENSE file or <http://opensource.org/licenses/MIT>
-
+#![feature(doc_alias)]
 #![allow(clippy::needless_doctest_main)]
 
 //! # GTK+ 3 bindings
